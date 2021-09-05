@@ -34,9 +34,9 @@
         
               <ul class="nav nav-pills">
                 <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">About Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">For Companies</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sectors</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact us</a></li>
               </ul>
             </header>
           </div>
@@ -50,10 +50,11 @@
                 <img src="./digital_transformation.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
               </div>
               <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Supporting all industry digital transformation</h1>
-                <p class="lead"></p>
+                <h1 class="display-5 fw-bold lh-1 mb-3">Supporting digital transformation across all industries.</h1>
+                <p class="lead">With our suppoort, transformation is made easy to understand, implement and deliver. We ensure our client get the best service and continuous support by building a global network.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact us</button>
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Explore</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
                 </div>
               </div>
             </div>
@@ -72,7 +73,7 @@
                 <div>
                   <h2>Consulting</h2>
                   <img src="./consulting.jpg" width = "400" height="260"
-                  <p>Trusted advisor to organisations on all areas of digital transformation .</p>
+                  <p>Trusted advisor to organisations on all areas of digital transformation across different industries and technologies.</p>
                   <a href="#" class="btn btn-primary">
                     More Details
                   </a>
@@ -85,7 +86,7 @@
                 <div>
                   <h2>Data and Analytics</h2>
                   <img src="./data_analysis.jpg" width = 400 height="260"
-                  <p>Domain expertise and access to industry data and digital innovation by providing valuable insights and secure data.</p>
+                  <p>Domain expertise with access to industry data and digital innovation by providing valuable insights and secure data.</p>
                   <a href="#" class="btn btn-primary">
                     More Details
                   </a>
@@ -98,7 +99,7 @@
                 <div>
                   <h2>Training</h2>
                   <img src="./training.jpg" width = 400 height="260"
-                  <p>We offer a variety of technical courses to help you be productive in the use of digital technologies.</p>
+                  <p>We offer a variety of technical courses to help you be more productive in the use of existing and future digital technologies.</p>
                   <a href="#" class="btn btn-primary">
                     More Details
                   </a>
@@ -112,33 +113,29 @@
         <div class="container">
             <div class="col-lg-6">
                 <div class="card rounded-3 text-dark">
-                    <div class="card-header py-4">Get in touch</div>
+                    <div class="card-header py-4">Contact Form</div>
                     <div class="card-body">
-                        <form>
-                            <div class="row gx-5 mb-3">
-                                <div class="col-md-6">
-                                    <label class="small text-gray-600" for="leadCapFirstName">First Name</label>
-                                    <input class="form-control" id="leadCapFirstName" type="text">
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="small text-gray-600" for="leadCapLastName">Last Name</label>
-                                    <input class="form-control" id="leadCapLastName" type="text">
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label class="small text-gray-600" for="leadCapEmail">Email address</label>
-                                <input class="form-control" id="leadCapEmail" type="email">
-                            </div>
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                                <label for="floatingTextarea2">Comments</label>
-                              </div>
-                            <div class="d-grid"><button class="btn btn-primary fw-500" type="submit">Submit</button></div>
+                        <form 
+                          action="https://formspree.io/f/xpzkkyqa" method="POST">
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">First and Last Name</label>
+                            <input type="name" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          <div class="d-grid"><button class="btn btn-primary fw-500" type="submit" value="send">Submit</button></div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+
+
 
         <!--Footer-->
         
@@ -146,18 +143,15 @@
             <footer class="row row-cols-5 py-5 my-5 border-top">
               <div class="col">
                 <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                <img src="./emmay_logo.jpg" width="80" height="80"
+                <img src="./emmay_logo.jpg" width="100" height="100"
                   <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
                 </a>
                 <p class="text-muted">© 2021</p>
               </div>
+
           
               <div class="col">
-          
-              </div>
-          
-              <div class="col">
-                <h5>Section</h5>
+                <h5>Company</h5>
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
@@ -167,7 +161,7 @@
               </div>
           
               <div class="col">
-                <h5>Section</h5>
+                <h5>Contacts</h5>
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact us</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Working with us</a></li>
